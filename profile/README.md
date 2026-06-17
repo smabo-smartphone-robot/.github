@@ -8,7 +8,7 @@ smaboには、以下のような特徴があります。
 
 工具不要で組み立て可能なので、初学者の方にもピッタリなロボットです！
 
-詳しくは、[smabo紹介サイト](smabo-smartphone-robot.github.io)をご確認ください。
+詳しくは、[smabo紹介サイト](https://smabo-smartphone-robot.github.io)をご覧ください。
 
 # リポジトリ
 
