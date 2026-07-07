@@ -1,34 +1,36 @@
 # smabo
 
-本organizationでは、スマートフォンが入るロボット「smabo」に関するリポジトリを管理しています。
+*English / [日本語](./README_jp.md)*
 
-smaboには、以下のような特徴があります。
-- 各パーツをブロックのように、完全工具不要でつけ外し可能
-- お手持ちのスマホをロボットのセンサ、顔として使用可能
+This organization manages the repositories for **smabo**, a robot that holds your smartphone.
 
-工具不要で組み立て可能なので、初学者の方にもピッタリなロボットです！
+smabo has the following features:
+- Every part snaps together like blocks — no tools required to assemble or disassemble
+- Use your own smartphone as the robot's sensors and face
 
-詳しくは、[smabo紹介サイト](https://smabo-smartphone-robot.github.io)をご覧ください。
+Since it can be assembled without any tools, it's a great robot for beginners too!
 
-# リポジトリ
+For more details, see the [smabo introduction site](https://smabo-smartphone-robot.github.io).
 
-smaboに関するリポジトリは、以下の通りです。
+# Repositories
+
+The repositories related to smabo are as follows:
 - [smabo-app](https://github.com/smabo-smartphone-robot/smabo-app)
-    - スマートフォンアプリ
-    - スマホをロボットのセンサ、ロボットの顔として使用
-- [smabo-esp32](https://github.com/smabo-smartphone-robot/sambo-esp32)
-    - ESP32マイコンのファームウェア
-    - ロボットのアクチュエータ（モータなど）を制御
+    - The smartphone app
+    - Uses the phone as the robot's sensors and face
+- [smabo-esp32](https://github.com/smabo-smartphone-robot/smabo-esp32)
+    - Firmware for the ESP32 microcontroller
+    - Controls the robot's actuators (motors, etc.)
 - [smabo-brain](https://github.com/smabo-smartphone-robot/smabo-brain)
-    - smaboの各コンポーネントからの通信を中継するハブ
-    - 画像処理、AIなど高度な処理の担当
+    - The hub that relays communication between smabo's components
+    - Handles advanced processing such as image processing and AI
 - [smabo-brain-ros](https://github.com/smabo-smartphone-robot/smabo-brain-ros)
-    - smabo-brainの通信部分をweb socketからROS2通信（DDS）にラップ
-    - ROSの豊富なライブラリやツール（nav2, moveitなど）をsmaboで利用可能にする（オプション、必須ではない）
+    - Wraps smabo-brain's communication layer from WebSocket to ROS 2 communication (DDS)
+    - Makes ROS's extensive libraries and tools (nav2, MoveIt, etc.) available to smabo (optional, not required)
 - [smabo-web](https://github.com/smabo-smartphone-robot/smabo-web)
-    - smaboの設定変更、手動操作、センサ情報の可視化などをweb上で可能とする補助ツール
+    - A browser-based auxiliary tool for changing smabo's settings, manual control, and visualizing sensor data
 - [smabo-hardware](https://github.com/smabo-smartphone-robot/smabo-hardware)
-    - smaboの組み立て手順を記載
-    - 各パーツのstl, stepファイルを管理
+    - Contains smabo's assembly instructions
+    - Manages the STL and STEP files for each part
 - [smabo-smartphone-robot.github.io](https://github.com/smabo-smartphone-robot/smabo-smartphone-robot.github.io)
-    - smaboのサイトの管理（概要、セットアップ手順、設計書など）
+    - Manages the smabo site (overview, setup instructions, design docs, etc.)
