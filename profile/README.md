@@ -32,5 +32,11 @@ The repositories related to smabo are as follows:
 - [smabo-hardware](https://github.com/smabo-smartphone-robot/smabo-hardware)
     - Contains smabo's assembly instructions
     - Manages the STL and STEP files for each part
+- [smabo-sim](https://github.com/smabo-smartphone-robot/smabo-sim)
+    - A simulator that stands in for smabo-esp32 (MuJoCo)
+    - Try smabo-brain(-ros) and smabo-web as they are, without the real robot
+- [smabo-protocol](https://github.com/smabo-smartphone-robot/smabo-protocol)
+    - The single source of the protocol between the repositories (topics and types)
+    - Generates the definition files each repository uses
 - [smabo-smartphone-robot.github.io](https://github.com/smabo-smartphone-robot/smabo-smartphone-robot.github.io)
     - Manages the smabo site (overview, setup instructions, design docs, etc.)

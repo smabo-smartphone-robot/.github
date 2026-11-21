@@ -32,5 +32,11 @@ smaboに関するリポジトリは、以下の通りです。
 - [smabo-hardware](https://github.com/smabo-smartphone-robot/smabo-hardware)
     - smaboの組み立て手順を記載
     - 各パーツのstl, stepファイルを管理
+- [smabo-sim](https://github.com/smabo-smartphone-robot/smabo-sim)
+    - smabo-esp32の代わりに動くシミュレータ（MuJoCo）
+    - 実機がなくても、smabo-brain(-ros)とsmabo-webをそのまま試せる
+- [smabo-protocol](https://github.com/smabo-smartphone-robot/smabo-protocol)
+    - リポジトリ間の通信の決めごと（トピックと型）の正本
+    - 各リポジトリで使う定義ファイルを生成
 - [smabo-smartphone-robot.github.io](https://github.com/smabo-smartphone-robot/smabo-smartphone-robot.github.io)
     - smaboのサイトの管理（概要、セットアップ手順、設計書など）
