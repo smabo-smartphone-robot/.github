@@ -1,0 +1,20 @@
+name: 機能の提案 / Feature request
+description: こんな機能がほしい、ここを改善したい / An idea for smabo
+labels: [enhancement]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: やりたいこと / What you want to do
+      description: どんな場面で、何ができるとうれしいか
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 考えている方法 / Possible approach
+      description: あれば（なくても大丈夫です）
+  - type: textarea
+    id: other
+    attributes:
+      label: 補足 / Additional context
