@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 製作ガイド・設計書 / Build guides and design docs
+    url: https://smabo-smartphone-robot.github.io/
+    about: 組み立て・セットアップ・使い方はこちら / How to build, set up and use smabo

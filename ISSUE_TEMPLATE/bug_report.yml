@@ -1,0 +1,44 @@
+name: 不具合の報告 / Bug report
+description: 思ったとおりに動かないときに / Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        報告ありがとうございます。わかる範囲で書いてください（空欄があっても大丈夫です）。
+        Thanks for the report. Fill in what you can; English is fine too.
+  - type: textarea
+    id: what
+    attributes:
+      label: 起きたこと / What happened
+      description: 何をしたら、何が起きたか
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順 / Steps to reproduce
+      placeholder: |
+        1. smabo-web の Drive タブを開く
+        2. ジョイスティックを前に倒す
+        3. ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作 / Expected behavior
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境 / Environment
+      description: 関係しそうなものだけで構いません
+      placeholder: |
+        - ロボットの構成: 台車（DG01D-E / TT モータ）、アーム、LiDAR など
+        - brain: smabo-brain / smabo-brain-ros（バージョンまたはコミット）
+        - スマホの機種と OS: 
+        - ブラウザ: 
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スクリーンショット / Logs and screenshots
+      description: Wi-Fi のパスワードやトークンが写っていないか確認してください / Remove passwords and tokens
+      render: text
